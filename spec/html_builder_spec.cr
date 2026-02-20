@@ -57,7 +57,7 @@ describe HTML::Builder do
     str.should eq %(<a href="http://crystal-lang.org" class="crystal" id="main">Crystal rocks!</a>)
   end
 
-  it "builds html with an provided html string" do
+  it "builds html with a provided html string" do
     str = HTML.build do
       html "<section>Crystal rocks!</section>"
     end
